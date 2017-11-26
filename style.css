@@ -1,0 +1,21 @@
+body {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.row {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-cap: 20px;
+}
+iframe {
+	min-height: 480px;
+	min-width: 33%;
+}
+video {
+	grid-column: span 12;
+}
+#chat {
+	display: flex;
+}
