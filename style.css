@@ -15,6 +15,7 @@ iframe {
 }
 video {
 	grid-column: span 12;
+	max-width: 100%;
 }
 #chat {
 	display: flex;
